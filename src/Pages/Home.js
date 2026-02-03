@@ -67,19 +67,19 @@ function Home() {
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="py-2 text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-normal font-bold"
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-normal font-bold whitespace-nowrap"
         >
           {tagline}
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Viswatej A" />
       </div>
     </main>
   );

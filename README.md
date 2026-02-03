@@ -1,55 +1,38 @@
-# React Developer Portfolio template
-#### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
-### Preview ( Dark Mode )
+# My Portfolio
 
-<img src="/preview.gif" alt="preview" width="600px" />
+This is my personal portfolio website showcasing my projects, experience, and technical skills.
 
-## Follow Below instructions to add your deatils in the portfolio.
+## Technologies Used
 
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
+- **React** - Frontend framework
+- **Tailwind CSS** - Styling
+- **JavaScript (ES6+)** - Programming language
+- **PostCSS** - CSS processing
 
-#### Open `/src/Details.js` & modify it as per your need.
+## Getting Started
 
-```javascript
-/ Enter your Personal Details here
-export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-};
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
-};
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
-// Enter your Education Details here
-export const eduDetails = { ... };
+## Features
 
-// Tech Stack and Tools
-export const techStackDetails = { ... };
+- Project showcase
+- Work experience section
+- Technology stack display
+- Contact information
 
-// Enter your Project Details here
-export const projectDetails = [ ... ];
+---
 
-// Enter your Contact Details here
-export const contactDetails = { ... };
-```
+Made with ❤️ using React, Tailwind CSS
